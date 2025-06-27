@@ -6,8 +6,8 @@ app = Flask(__name__)
 def home():
     return "<h1>¡Hola desde Flask en Azure App Service!</h1>\nProfesor, póngame un 7 😎"
 
-@app.route("/holamundo")
-def home():
+@app.route("/hola")
+def hola():
     return "<h1>Hola mundo</h1>"
 
 @app.route("/video")
